@@ -6,7 +6,7 @@ exports.firstLetterCapitalize = str => {
 }
 
 exports.convertToCelcius = temperature => {
-    const celcius =  (temperature - 32) * (5 / 9);
+    const celcius =  temperature - 273.15;
 
     return celcius.toFixed();
 }
